@@ -5,7 +5,7 @@ To test locally:
 
 - gem install bundler
 - bundle install
-- ruby helloworld.rb
+- unicorn -d -p 4567
 - curl http://localhost:4567/
 
 You should see the following:
